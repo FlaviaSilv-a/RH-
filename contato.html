@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Contato - ConectaRH</title>
+  <link rel="stylesheet" href="style.css" />
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;700&display=swap" rel="stylesheet">
+  <style>
+    html {
+      scroll-behavior: smooth;
+    }
+  </style>
+</head>
+<body>
+  <header>
+    <div class="container header-flex">
+      <img src="logo.png" alt="Logo da ConectaRH" class="logo">
+      <h1>ConectaRH</h1>
+    </div>
+  </header>
+
+  <main class="container">
+    <section class="formulario bloco">
+      <h2>📬 Fale com a gente</h2>
+      <form action="https://formsubmit.co/flavia.b.1997@gmail.com" method="POST">
+        <input type="text" name="nome" placeholder="Seu nome completo" required />
+        <input type="email" name="email" placeholder="Seu e-mail" required />
+        <input type="tel" name="telefone" placeholder="Seu telefone (opcional)" />
+        <button type="submit">Enviar Mensagem</button>
+        <input type="hidden" name="_captcha" value="false" />
+        <input type="hidden" name="_next" value="https://google.com" />
+      </form>
+    </section>
+  </main>
+</body>
+</html>
